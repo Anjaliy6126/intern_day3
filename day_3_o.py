@@ -27,7 +27,7 @@ st.write("Predict Insurance Sales using Logistic Regression")
 # -----------------------------------
 # Load Dataset
 # -----------------------------------
-df = pd.read_csv("/insurance_data (1).csv")
+df = pd.read_csv("insurance_data (1).csv")
 
 st.subheader("Insurance Dataset")
 st.dataframe(df)
